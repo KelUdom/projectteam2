@@ -5,7 +5,7 @@
 }
 .navbar-brand {
   font-size: 2rem;
-  color: black;
+  color: rgb(154, 150, 150);
 }
 body {
   background-color: rgb(255, 255, 255);
@@ -106,7 +106,7 @@ body {
     justify-content:center;
     align-items:center;
     font-weight:bold;
-    flex-shrink:0;
+   
 }
 
 .feature-card h6{
@@ -119,4 +119,94 @@ body {
     margin:0;
     color:#777;
     font-size:14px;
+}
+.about{
+  padding: 120px 0;
+}
+.section-title{
+  color: rgb(139, 106, 79);
+  font-size: 12px;
+}.about h2{
+  margin-top: 10px;
+  font-size: 42px;
+}
+.about li{
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.line{
+  width: 80px;
+  height: 5px;
+  background: rgb(51, 255, 0);
+  margin-top: 15px;
+}
+.about img{
+  width: 350px;
+  height: 350px;
+}
+.visit-section{
+  background: rgb(239, 239, 230);
+  padding: 120px 0;
+}
+.btn-coffee{
+  width: 200px;
+  height: auto;
+}
+.footer img{
+  width: 40px;
+  height: auto;
+}
+.footer h3{
+  font-size: 20px;
+  color: rgb(139, 106, 79);
+}
+hr{
+ color: rgb(0, 0, 0);
+ 
+}
+.footer p{
+  color: rgb(0, 0, 0);
+  font-size: 10px;
+}
+btn-primary {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+}
+.contact-card iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    border: 0;
+}
+
+
+@media (max-width: 991px) {
+    .contact-card iframe {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container-section {
+        padding: 30px 15px;
+    }
+
+    .contact-card {
+        border-radius: 10px;
+    }
+
+    .contact-card iframe {
+        min-height: 300px;
+    }
+
+    .btn-primary {
+        padding: 10px;
+    }
 }
